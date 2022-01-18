@@ -7,9 +7,37 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="/xxx" method="POST" autocomplete="on">
+    <form action="/xxx" method="POST" autocomplete="off" target="a">
         <input name="username" type="text">
+        <hr>
+        <input type="color">
+        <hr>
+        <input type="password">
+        <hr>
         <input type="submit">
+        <input name=gender type="radio">男
+        <input name=gender type="radio">女
+        <hr>
+        <input type="checkbox" name="hobby">唱
+        <input type="checkbox" name="hobby">跳
+        <input type="checkbox" name="hobby">说
+        <hr>
+        <input type="file">
+        <input type="file" multiple>
+        <hr>
+        <input type="hidden">
+        <hr>
+        <textarea style="resize: none; width:50%; height: 300px;"></textarea>
+        <hr>
+        <select>
+            <option value="">请选择</option>
+            <option value="1"></option>
+            <option value="2"></option>
+        </select>
+        <hr>
+        <button type="submit">
+            <strong>搞起</strong>
+        </button>
     </form>
 
 </body>
